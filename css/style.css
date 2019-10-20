@@ -1,0 +1,63 @@
+html, body {
+    font-family: font-family 'Roboto', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background:url("../img/bg_1.jpg") top center no-repeat/ cover;
+    padding: 0;
+    margin: 0px auto;
+}
+
+nav{
+    position: relative;
+    z-index: 9999;
+}
+
+.carousel-item h1 {
+font-weight: 300;
+font-size: 48px;
+letter-spacing: 7px;
+background-color: #000000;
+padding: 5px;
+
+}
+.carousel-item p {
+font-weight: 300;
+font-size: 18px;
+letter-spacing: 7px;
+text-transform: uppercase;
+}
+
+.navbar-nav li a{
+    font-size: 14px;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    height: 13px !important;
+    width: 13px !important;
+   
+}
+/* .carousel-indicators .active {
+   border: 1px solid #000000;
+} */
+
+.image_content {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin:15px;
+    
+  }
+   
+  .image_content:hover:after{
+    content:"";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.4);
+  }
+  
+  
